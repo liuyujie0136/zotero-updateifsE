@@ -1,0 +1,99 @@
+<!-- 期刊影响因子设置 -->
+<!ENTITY zotero.greenfrog.pref.secretkey.label "easyScholar密钥：">
+<!ENTITY zotero.greenfrog.pref.secretkey.apply.label "申请easyScholar密钥">
+<!ENTITY zotero.greenfrog.journal.setting "期刊更新设置">
+<!ENTITY zotero.greenfrog.update.empty.extra "更新之前清空Extra">
+<!ENTITY zotero.greenfrog.add.update "添加条目时更新期刊信息">
+<!ENTITY zotero.greenfrog.update.abbr "更新期刊缩写">
+<!ENTITY zotero.greenfrog.update.abbr.dot "期刊缩写带点">
+<!ENTITY zotero.greenfrog.en.abbr "如果英文条目查询不到, 期刊缩写使用期刊全称">
+<!ENTITY zotero.greenfrog.ch.abbr "如果中文条目查询不到, 期刊缩写使用期刊全称">
+
+
+<!-- 分区类型设置 --><!-- 影响因子设置 -->
+<!ENTITY zotero.greenfrog.ifs.setting "分区与影响因子设置">
+<!ENTITY zotero.greenfrog.jcr.qu "JCR分区">
+<!ENTITY zotero.greenfrog.basic "中科院基础版">
+<!ENTITY zotero.greenfrog.updated "中科院升级版">
+<!ENTITY zotero.greenfrog.sci.if "影响因子(IF)">
+<!ENTITY zotero.greenfrog.sci.if5 "5年影响因子">
+<!ENTITY zotero.greenfrog.ei "工程索引(EI)">
+
+<!ENTITY zotero.greenfrog.chjcscd "中国科学引文数据库(CSCD)">
+<!ENTITY zotero.greenfrog.pku.core "中文核心/北大核心">
+<!ENTITY zotero.greenfrog.nju.core "南大核心">
+<!ENTITY zotero.greenfrog.sci.core "科技核心">  <!-- https://www.ascii-code.com/表示&-->
+<!ENTITY zotero.greenfrog.ssci "社会科学引文索引">
+<!ENTITY zotero.greenfrog.ajg "ABS学术期刊指南">
+<!ENTITY zotero.greenfrog.utd24 "UTD24">
+<!ENTITY zotero.greenfrog.ft50 "FT50">
+<!ENTITY zotero.greenfrog.ccf "中国计算机学会">
+<!ENTITY zotero.greenfrog.fms "FMS">
+<!ENTITY zotero.greenfrog.jci "JCI">
+<!ENTITY zotero.greenfrog.ahci "AHCI">
+
+<!ENTITY zotero.greenfrog.sciwarn "中科院预警">
+<!ENTITY zotero.greenfrog.com.if "复合影响因子">
+<!ENTITY zotero.greenfrog.agg.if "综合影响因子">
+
+<!-- 大学期刊分类 -->
+<!ENTITY zotero.greenfrog.university "大学期刊分类">
+<!ENTITY zotero.greenfrog.njau.core "南京农业大学核心">
+<!ENTITY zotero.greenfrog.njau.high.quality "南京农业大学高质量">
+<!ENTITY zotero.greenfrog.swufe "西南财经大学">
+<!ENTITY zotero.greenfrog.cufe "中央财经大学">
+<!ENTITY zotero.greenfrog.uibe "对外经济贸易大学">
+<!ENTITY zotero.greenfrog.sdufe "山东财经大学">
+<!ENTITY zotero.greenfrog.xdu "西安电子科技大学">
+<!ENTITY zotero.greenfrog.swjtu "西南交通大学">
+<!ENTITY zotero.greenfrog.ruc "中国人民大学">
+<!ENTITY zotero.greenfrog.xmu "厦门大学">
+<!ENTITY zotero.greenfrog.sjtu "上海交通大学">
+<!ENTITY zotero.greenfrog.fdu "复旦大学">
+<!ENTITY zotero.greenfrog.hhu "河海大学">
+<!ENTITY zotero.greenfrog.scu "四川大学">
+<!ENTITY zotero.greenfrog.cqu "重庆大学">
+<!ENTITY zotero.greenfrog.nju "南京大学">
+<!ENTITY zotero.greenfrog.xju "新疆大学">
+<!ENTITY zotero.greenfrog.cug "中国地质大学">
+<!ENTITY zotero.greenfrog.cju "长江大学">
+<!ENTITY zotero.greenfrog.zju "浙江大学">
+
+<!-- 自定义数据集 -->
+<!ENTITY zotero.greenfrog.custom.data "自定义数据集">
+<!ENTITY zotero.greenfrog.ami "AMI">
+<!ENTITY zotero.greenfrog.clsci "CLSCI">
+<!ENTITY zotero.greenfrog.nssf "国家社科基金">
+
+<!-- 菜单显示隐藏设置 -->
+<!ENTITY zotero.greenfrog.menu.setting "显示工具箱菜单设置">
+<!ENTITY zotero.greenfrog.bold.star "作者加粗/加星">
+<!ENTITY zotero.greenfrog.remove.bold "清除作者加粗">
+<!ENTITY zotero.greenfrog.remove.star "清除作者加星">
+<!ENTITY zotero.greenfrog.remove.bold.star "清除作者加粗加星">
+<!ENTITY zotero.greenfrog.chang.author.case "更改姓名为词首字母大写">
+<!ENTITY zotero.greenfrog.swap.author "更改作者姓和名">
+<!ENTITY zotero.greenfrog.chang.title "更改题目为句首大小写">
+<!ENTITY zotero.greenfrog.chang.pub.title "更改期刊名称">
+<!ENTITY zotero.greenfrog.chang.pub.title.case "更改期刊名称大小写">
+<!ENTITY zotero.greenfrog.item.title.find.replace.tip "条目题目查找替换">
+<!ENTITY zotero.greenfrog.item.title.find.replace "题目查找替换">
+<!ENTITY zotero.greenfrog.show.profile.dir "显示配置目录">
+<!ENTITY zotero.greenfrog.show.data.dir "显示数据目录">
+<!ENTITY zotero.greenfrog.menu.sep.1 "分隔条1">
+<!ENTITY zotero.greenfrog.menu.sep.2 "分隔条2">
+
+<!-- 快捷键设置 -->
+<!ENTITY zotero.greenfrog.shortcut.setting "快捷键设置">
+<!ENTITY zotero.greenfrog.shortcut.title.sentence "使用快捷键设置题目大小写为句首字母大写:">
+<!ENTITY zotero.greenfrog.shortcut.publication.title.case "使用快捷键设置期刊名称为词首字母大写:">
+<!ENTITY zotero.greenfrog.shortcut.data.dir "使用快捷键显示数据目录:">
+<!ENTITY zotero.greenfrog.shortcut.profile.dir "使用快捷键显示配置目录:">
+
+<!ENTITY zotero.greenfrog.pref.title "插件模板设置示例">
+<!ENTITY zotero.greenfrog.itemmenu.test.label "插件模板">
+<!ENTITY zotero.greenfrog.pref.enable.label "开启">
+<!ENTITY zotero.greenfrog.pref.input.label "输入">
+
+<!ENTITY zotero.greenfrog.help.version.label "Green Frog 版本 0.13.0">
+<!ENTITY zotero.greenfrog.help.releasetime.label "Build 2023-06-09 21:57:17">

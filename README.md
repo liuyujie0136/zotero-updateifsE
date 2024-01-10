@@ -1,5 +1,17 @@
 # Green Frog
 
+- Forked from `redleafnew/zotero-updateifsE`
+- Based on release v0.13.0 (Jun 9, 2023) for Zotero 6
+- **For self use only**
+
+## Updates
+All updates have been tested in Zotero 6 (v6.0.30), on Windows 10 Professional Education version 2009
+
+### 2024.01.04, v0.13.1
+- Only updates `"volume", "issue", "date", "pages", "ISSN", "url", "DOI", "type", "publisher"`, do not update for `"title", "publicationTitle", "journalAbbreviation"`, as may lead to getting undesired content
+
+
+## Original README
 [![zotero target version](https://img.shields.io/badge/Zotero-7.0.*-green?style=flat-square&logo=zotero&logoColor=CC2936)](https://www.zotero.org)
 [![version](https://img.shields.io/github/package-json/v/redleafnew/zotero-updateifsE?style=flat-square)](https://github.com/redleafnew/zotero-updateifsE/releases/)
 [![download number](https://img.shields.io/github/downloads/redleafnew/zotero-updateifsE/latest/greenfrog.xpi?style=flat-square)](https://github.com/redleafnew/zotero-updateifsE/releases/)

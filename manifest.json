@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Green Frog",
+  "version": "0.13.1",
+  "description": "Zotero plugin for update journal information from easyScholar",
+  "author": "Minyi Han",
+  "icons": {
+    "48": "chrome/content/icons/favicon@0.5x.png",
+    "96": "chrome/content/icons/favicon.png"
+  },
+  "applications": {
+    "zotero": {
+      "id": "greenfrog@redleafnew.me",
+      "update_url": "https://raw.githubusercontent.com/redleafnew/zotero-updateifsE/bootstrap/update.json",
+      "strict_min_version": "6.999",
+      "strict_max_version": "7.0.*"
+    }
+  }
+}

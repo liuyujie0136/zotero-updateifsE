@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<RDF:RDF
+    xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+    xmlns:NC="http://home.netscape.com/NC-rdf#"
+    xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <RDF:Description
+        RDF:about="urn:mozilla:install-manifest"
+        em:id="greenfrog@redleafnew.me"
+        em:name="Green Frog"
+        em:version="0.13.1"
+        em:type="2"
+        em:creator="Minyi Han"
+        em:description="Zotero plugin for update journal information from easyScholar"
+        em:homepageURL="https://github.com/redleafnew/zotero-updateifsE#readme"
+        em:iconURL="chrome://greenfrog/content/icons/favicon.png"
+        em:optionsURL="chrome://greenfrog/content/preferences.xul"
+        em:updateURL="https://raw.githubusercontent.com/redleafnew/zotero-updateifsE/bootstrap/update.json"
+        em:multiprocessCompatible="true"
+        em:bootstrap="true">
+        <em:targetApplication>
+            <Description>
+                <em:id>zotero@chnm.gmu.edu</em:id>
+                <em:minVersion>5.0</em:minVersion>
+                <em:maxVersion>*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+        <em:targetApplication>
+            <Description>
+                <em:id>juris-m@juris-m.github.io</em:id>
+                <em:minVersion>5.0</em:minVersion>
+                <em:maxVersion>*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+  </RDF:Description>
+</RDF:RDF>

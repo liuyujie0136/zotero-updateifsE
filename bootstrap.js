@@ -69,15 +69,19 @@ async function startup({ id, version, resourceURI, rootURI }, reason) {
     rootURI = resourceURI.spec;
   }
 
-  var aomStartup = Components.classes[
-    "@mozilla.org/addons/addon-manager-startup;1"
-  ].getService(Components.interfaces.amIAddonManagerStartup);
-  var manifestURI = Services.io.newURI(rootURI + "manifest.json");
-  chromeHandle = aomStartup.registerChrome(manifestURI, [
-    ["content", "__addonRef__", rootURI + "chrome/content/"],
-    ["locale", "__addonRef__", "en-US", rootURI + "chrome/locale/en-US/"],
-    ["locale", "__addonRef__", "zh-CN", rootURI + "chrome/locale/zh-CN/"],
-  ]);
+  if (Zotero.platformMajorVersion >= 102) {
+    var aomStartup = Components.classes[
+      "@mozilla.org/addons/addon-manager-startup;1"
+    ].getService(Components.interfaces.amIAddonManagerStartup);
+    var manifestURI = Services.io.newURI(rootURI + "manifest.json");
+    chromeHandle = aomStartup.registerChrome(manifestURI, [
+      ["content", "greenfrog", rootURI + "chrome/content/"],
+      ["locale", "greenfrog", "en-US", rootURI + "chrome/locale/en-US/"],
+      ["locale", "greenfrog", "zh-CN", rootURI + "chrome/locale/zh-CN/"],
+    ]);
+  } else {
+    setDefaultPrefs(rootURI);
+  }
 
   // Global variables for plugin code
   const ctx = {
@@ -92,9 +96,6 @@ async function startup({ id, version, resourceURI, rootURI }, reason) {
 }
 
 function shutdown({ id, version, resourceURI, rootURI }, reason) {
-  if (reason == ADDON_DISABLE) {
-    Services.obs.notifyObservers(null, "startupcache-invalidate", null);
-  }
   if (reason === APP_SHUTDOWN) {
     return;
   }
@@ -103,7 +104,7 @@ function shutdown({ id, version, resourceURI, rootURI }, reason) {
       Components.interfaces.nsISupports
     ).wrappedJSObject;
   }
-  Zotero.__addonInstance__.hooks.onShutdown();
+  Zotero.greenfrog.hooks.onShutdown();
 
   Cc["@mozilla.org/intl/stringbundle;1"]
     .getService(Components.interfaces.nsIStringBundleService)

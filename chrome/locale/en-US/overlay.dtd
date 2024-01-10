@@ -1,0 +1,102 @@
+<!-- 期刊影响因子设置 -->
+<!ENTITY zotero.greenfrog.pref.secretkey.label "  easyScholar Secretkey: ">
+<!ENTITY zotero.greenfrog.pref.secretkey.apply.label "Register easyScholar Secretkey">
+<!ENTITY zotero.greenfrog.journal.setting "Journal Update Settings">
+<!ENTITY zotero.greenfrog.update.empty.extra "Empty Extra before update">
+<!ENTITY zotero.greenfrog.add.update "Update journal information when adding item">
+<!ENTITY zotero.greenfrog.update.abbr "Update journal abbreviation">
+<!ENTITY zotero.greenfrog.update.abbr.dot "Journal abbreviation with dot">
+<!ENTITY zotero.greenfrog.en.abbr "Use full publication title to replace journal abbreviation for English item when the journal is not found">
+<!ENTITY zotero.greenfrog.ch.abbr "Use full publication title to replace journal abbreviation for Chinese item when the journal is not found">
+
+
+<!-- 南农核心期刊设置 -->
+<!ENTITY zotero.greenfrog.njau.core.high.quality "NJAU Core and Hight Quality Journal Settings (only for Food Science and Technology">
+
+<!-- 分区类型设置 --><!-- 影响因子设置 -->
+<!ENTITY zotero.greenfrog.ifs.setting "Quartile and IF Settings">
+<!ENTITY zotero.greenfrog.jcr.qu "JCR Quartile">
+<!ENTITY zotero.greenfrog.basic "CAS Basic verison">
+<!ENTITY zotero.greenfrog.updated "CAS Updated version">
+<!ENTITY zotero.greenfrog.sci.if "IF">
+<!ENTITY zotero.greenfrog.sci.if5 "5 Year IF">
+<!ENTITY zotero.greenfrog.ei "EI">
+
+<!ENTITY zotero.greenfrog.chjcscd "CSCD">
+<!ENTITY zotero.greenfrog.pku.core "PKU Core">
+<!ENTITY zotero.greenfrog.nju.core "NJU Core">
+<!ENTITY zotero.greenfrog.sci.core "Sci &amp; Tech Core">  <!-- https://www.ascii-code.com/表示&-->
+<!ENTITY zotero.greenfrog.ssci "SSCI">
+<!ENTITY zotero.greenfrog.ajg "AJG">
+<!ENTITY zotero.greenfrog.utd24 "UTD24">
+<!ENTITY zotero.greenfrog.ft50 "FT50">
+<!ENTITY zotero.greenfrog.ccf "CCF">
+<!ENTITY zotero.greenfrog.fms "FMS">
+<!ENTITY zotero.greenfrog.jci "JCI">
+<!ENTITY zotero.greenfrog.ahci "AHCI">
+<!ENTITY zotero.greenfrog.sciwarn "CAS Warning">
+<!ENTITY zotero.greenfrog.com.if "Compound IF">
+<!ENTITY zotero.greenfrog.agg.if "Comprehensive IF">
+
+<!-- 大学期刊分类 -->
+<!ENTITY zotero.greenfrog.university "University Journal Category Settings">
+<!ENTITY zotero.greenfrog.njau.core "NJAU Core">
+<!ENTITY zotero.greenfrog.njau.high.quality "NJAU High Quality">
+<!ENTITY zotero.greenfrog.swufe "SWUFE">
+<!ENTITY zotero.greenfrog.cufe "CUFE">
+<!ENTITY zotero.greenfrog.uibe "UIBE">
+<!ENTITY zotero.greenfrog.sdufe "SDUFE">
+<!ENTITY zotero.greenfrog.xdu "XDU">
+<!ENTITY zotero.greenfrog.swjtu "SWJTU">
+<!ENTITY zotero.greenfrog.ruc "RUC">
+<!ENTITY zotero.greenfrog.xmu "XMU">
+<!ENTITY zotero.greenfrog.sjtu "SJTU">
+<!ENTITY zotero.greenfrog.fdu "FDU">
+<!ENTITY zotero.greenfrog.hhu "HHU">
+<!ENTITY zotero.greenfrog.scu "SCU">
+<!ENTITY zotero.greenfrog.cqu "CQU">
+<!ENTITY zotero.greenfrog.nju "NJU">
+<!ENTITY zotero.greenfrog.xju "XJU">
+<!ENTITY zotero.greenfrog.cug "CUG">
+<!ENTITY zotero.greenfrog.cju "CJU">
+<!ENTITY zotero.greenfrog.zju "ZJU">
+
+<!-- 自定义数据集 -->
+<!ENTITY zotero.greenfrog.custom.data "Custom Dataset">
+<!ENTITY zotero.greenfrog.ami "AMI">
+<!ENTITY zotero.greenfrog.clsci "CLSCI">
+<!ENTITY zotero.greenfrog.nssf "NSSF (National Social Science Fund)">
+
+<!-- 菜单显示隐藏设置 -->
+<!ENTITY zotero.greenfrog.menu.setting "Show Toolbox Menu Settings">
+<!ENTITY zotero.greenfrog.bold.star "Author Bold and/or Asterisk">
+<!ENTITY zotero.greenfrog.remove.bold "Clean Author Bold">
+<!ENTITY zotero.greenfrog.remove.star "Clean Author Asterisk">
+<!ENTITY zotero.greenfrog.remove.bold.star "Clean Author Bold and Asterisk">
+<!ENTITY zotero.greenfrog.chang.author.case "Change Author Name to Title Case">
+<!ENTITY zotero.greenfrog.swap.author "Swap Authors First and Last Name">
+<!ENTITY zotero.greenfrog.chang.title "Change Title to Sentense Case">
+<!ENTITY zotero.greenfrog.chang.pub.title "Change Publication Title">
+<!ENTITY zotero.greenfrog.chang.pub.title.case "Change Publication Title Case">
+<!ENTITY zotero.greenfrog.item.title.find.replace.tip "Find and replace in item title.">
+<!ENTITY zotero.greenfrog.item.title.find.replace "Item Title Find and Replace">
+<!ENTITY zotero.greenfrog.show.profile.dir "Show Porfile Directory">
+<!ENTITY zotero.greenfrog.show.data.dir "Show Data Directory">
+<!ENTITY zotero.greenfrog.menu.sep.1 "Separator 1">
+<!ENTITY zotero.greenfrog.menu.sep.2 "Separator 2">
+
+<!-- 快捷键设置 -->
+<!ENTITY zotero.greenfrog.shortcut.setting "Shortcut Settings">
+<!ENTITY zotero.greenfrog.shortcut.title.sentence "Using shortcut for changing title to sentence case:">
+<!ENTITY zotero.greenfrog.shortcut.publication.title.case "Using shortcut for changing publication title to title case:">
+<!ENTITY zotero.greenfrog.shortcut.data.dir "Using shortcut for showing data directory:">
+<!ENTITY zotero.greenfrog.shortcut.profile.dir "Using shortcut for showing profile directory:">
+
+
+<!ENTITY zotero.greenfrog.pref.title "Addon Template Example">
+<!ENTITY zotero.greenfrog.itemmenu.test.label "addon template">
+<!ENTITY zotero.greenfrog.pref.enable.label "Enable">
+<!ENTITY zotero.greenfrog.pref.input.label "Input">
+
+<!ENTITY zotero.greenfrog.help.version.label "Green Frog VERSION 0.13.0">
+<!ENTITY zotero.greenfrog.help.releasetime.label "Build 2023-06-09 21:57:17">

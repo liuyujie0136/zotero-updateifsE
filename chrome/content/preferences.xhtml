@@ -1,0 +1,309 @@
+<vbox id="zotero-prefpane-greenfrog" onload="Zotero.greenfrog.hooks.onPrefsEvent('load', {window})">
+  <groupbox>
+    <!-- 期刊设置 -->
+    <label>
+      <html:h2>&zotero.greenfrog.journal.setting;</html:h2>
+    </label>
+    <hbox>
+      <label value=" "></label>
+      <html:label width='250' for="zotero-prefpane-greenfrog-secretkey">&zotero.greenfrog.pref.secretkey.label;
+      </html:label>
+      <html:input type="password" id="zotero-prefpane-greenfrog-secretkey" value="" width='500'
+        preference="extensions.zotero.greenfrog.secretkey">
+      </html:input>
+      <!-- 空格 -->
+      <label value=" "></label>
+      <label value="&zotero.greenfrog.pref.secretkey.apply.label;" class="zotero-text-link"
+        href="https://easyscholar.cc/"></label>
+    </hbox>
+    <!-- 更新前清空Extra -->
+    <checkbox id="zotero-prefpane-greenfrog-update-empty-extra" label="&zotero.greenfrog.update.empty.extra;"
+      preference="extensions.zotero.greenfrog.update.empty.extra" />
+
+    <checkbox id="zotero-prefpane-greenfrog-add-update" label="&zotero.greenfrog.add.update;"
+      preference="extensions.zotero.greenfrog.add.update" />
+    <checkbox id="zotero-prefpane-greenfrog-update-abbr" label="&zotero.greenfrog.update.abbr;"
+      preference="extensions.zotero.greenfrog.update.abbr" />
+    <checkbox id="zotero-prefpane-greenfrog-update-abbr-dot" label="&zotero.greenfrog.update.abbr.dot;"
+      preference="extensions.zotero.greenfrog.update.abbr.dot" />
+    <checkbox id="zotero-prefpane-greenfrog-en-abbr" label="&zotero.greenfrog.en.abbr;"
+      preference="extensions.zotero.greenfrog.en.abbr" />
+    <checkbox id="zotero-prefpane-greenfrog-ch-abbr" label="&zotero.greenfrog.ch.abbr;"
+      preference="extensions.zotero.greenfrog.ch.abbr" />
+
+    <!-- 英文期刊 -->
+    <!--还需要写入 preferenceScript.ts function bindPrefEvents函数-->
+    <!-- 还需要写入examples.ts   static async registerExtraColumn 注册显示列-->
+    <!-- 还需要写入examples.ts   static async setExtra写入Extra -->
+    <!-- 还需要写入prefs.js写入键值 -->
+    <label>
+      <html:h2>&zotero.greenfrog.ifs.setting;</html:h2>
+    </label>
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-jcr-qu" label="&zotero.greenfrog.jcr.qu;"
+        preference="extensions.zotero.greenfrog.jcr.qu" />
+      <checkbox id="zotero-prefpane-greenfrog-basic" label="&zotero.greenfrog.basic;"
+        preference="extensions.zotero.greenfrog.basic" />
+    </hbox>
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-updated" label="&zotero.greenfrog.updated;"
+        preference="extensions.zotero.greenfrog.updated" />
+      <checkbox id="zotero-prefpane-greenfrog-sci-if" label="&zotero.greenfrog.sci.if;"
+        preference="extensions.zotero.greenfrog.sci.if" />
+    </hbox>
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-sci-if5" label="&zotero.greenfrog.sci.if5;"
+        preference="extensions.zotero.greenfrog.sci.if5" />
+      <checkbox id="zotero-prefpane-greenfrog-ei" label="&zotero.greenfrog.ei;"
+        preference="extensions.zotero.greenfrog.ei" />
+    </hbox>
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-chjcscd" label="&zotero.greenfrog.chjcscd;"
+        preference="extensions.zotero.greenfrog.chjcscd" />
+      <checkbox id="zotero-prefpane-greenfrog-pku-core" label="&zotero.greenfrog.pku.core;"
+        preference="extensions.zotero.greenfrog.pku.core" />
+    </hbox>
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-nju-core" label="&zotero.greenfrog.nju.core;"
+        preference="extensions.zotero.greenfrog.nju.core" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-sci-core" label="&zotero.greenfrog.sci.core;"
+        preference="extensions.zotero.greenfrog.sci.core" />
+    </hbox>
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-ssci" label="&zotero.greenfrog.ssci;"
+        preference="extensions.zotero.greenfrog.ssci" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-ajg" label="&zotero.greenfrog.ajg;"
+        preference="extensions.zotero.greenfrog.ajg" />
+    </hbox>
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-utd24" label="&zotero.greenfrog.utd24;"
+        preference="extensions.zotero.greenfrog.utd24" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-ft50" label="&zotero.greenfrog.ft50;"
+        preference="extensions.zotero.greenfrog.ft50" />
+    </hbox>
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-ccf" label="&zotero.greenfrog.ccf;"
+        preference="extensions.zotero.greenfrog.ccf" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-fms" label="&zotero.greenfrog.fms;"
+        preference="extensions.zotero.greenfrog.fms" />
+    </hbox>
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-jci" label="&zotero.greenfrog.jci;"
+        preference="extensions.zotero.greenfrog.jci" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-ahci" label="&zotero.greenfrog.ahci;"
+        preference="extensions.zotero.greenfrog.ahci" />
+    </hbox>
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-sciwarn" label="&zotero.greenfrog.sciwarn;"
+        preference="extensions.zotero.greenfrog.sciwarn" />
+    </hbox>
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-com-if" label="&zotero.greenfrog.com.if;"
+        preference="extensions.zotero.greenfrog.com.if" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-agg-if" label="&zotero.greenfrog.agg.if;"
+        preference="extensions.zotero.greenfrog.agg.if" />
+    </hbox>
+
+    <label>
+      <html:h2>&zotero.greenfrog.university;</html:h2>
+    </label>
+    <!-- 南农核心期刊 -->
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-njau-core" label="&zotero.greenfrog.njau.core;"
+        preference="extensions.zotero.greenfrog.njau.core" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-njau-high-quality"
+        label="&zotero.greenfrog.njau.high.quality;" preference="extensions.zotero.greenfrog.njau.high.quality" />
+    </hbox>
+    <!-- 西南财经大学，中央财经大学  -->
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-swufe" label="&zotero.greenfrog.swufe;"
+        preference="extensions.zotero.greenfrog.swufe" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-cufe" label="&zotero.greenfrog.cufe;"
+        preference="extensions.zotero.greenfrog.cufe" />
+    </hbox>
+    <!-- 对外经济贸易大学，山东财经大学 -->
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-uibe" label="&zotero.greenfrog.uibe;"
+        preference="extensions.zotero.greenfrog.uibe" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-sdufe" label="&zotero.greenfrog.sdufe;"
+        preference="extensions.zotero.greenfrog.sdufe" />
+    </hbox>
+    <!-- 西安电子科技大学，西南交通大学 -->
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-xdu" label="&zotero.greenfrog.xdu;"
+        preference="extensions.zotero.greenfrog.xdu" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-swjtu" label="&zotero.greenfrog.swjtu;"
+        preference="extensions.zotero.greenfrog.swjtu" />
+    </hbox>
+    <!-- 中国人民大学，厦门大学 -->
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-ruc" label="&zotero.greenfrog.ruc;"
+        preference="extensions.zotero.greenfrog.ruc" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-xmu" label="&zotero.greenfrog.xmu;"
+        preference="extensions.zotero.greenfrog.xmu" />
+    </hbox>
+    <!-- 上海交通大学，复旦大学 -->
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-sjtu" label="&zotero.greenfrog.sjtu;"
+        preference="extensions.zotero.greenfrog.sjtu" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-fdu" label="&zotero.greenfrog.fdu;"
+        preference="extensions.zotero.greenfrog.fdu" />
+    </hbox>
+    <!-- 河海大学，四川大学 -->
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-hhu" label="&zotero.greenfrog.hhu;"
+        preference="extensions.zotero.greenfrog.hhu" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-scu" label="&zotero.greenfrog.scu;"
+        preference="extensions.zotero.greenfrog.scu" />
+    </hbox>
+    <!-- 重庆大学，南京大学 -->
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-cqu" label="&zotero.greenfrog.cqu;"
+        preference="extensions.zotero.greenfrog.cqu" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-nju" label="&zotero.greenfrog.nju;"
+        preference="extensions.zotero.greenfrog.nju" />
+    </hbox>
+    <!-- 新疆大学，中国地质大学 -->
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-xju" label="&zotero.greenfrog.xju;"
+        preference="extensions.zotero.greenfrog.xju" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-cug" label="&zotero.greenfrog.cug;"
+        preference="extensions.zotero.greenfrog.cug" />
+    </hbox>
+    <!-- 长江大学，浙江大学 -->
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-cju" label="&zotero.greenfrog.cju;"
+        preference="extensions.zotero.greenfrog.cju" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-zju" label="&zotero.greenfrog.zju;"
+        preference="extensions.zotero.greenfrog.zju" />
+    </hbox>
+
+    <!-- 自定义数据集 -->
+    <label>
+      <html:h2>&zotero.greenfrog.custom.data;</html:h2>
+    </label>
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-clsci" label="&zotero.greenfrog.clsci;"
+        preference="extensions.zotero.greenfrog.clsci" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-ami" label="&zotero.greenfrog.ami;"
+        preference="extensions.zotero.greenfrog.ami" />
+    </hbox>
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-nssf" label="&zotero.greenfrog.nssf;"
+        preference="extensions.zotero.greenfrog.nssf" />
+    </hbox>
+
+    <!-- 菜单隐藏设置 -->
+    <label>
+      <html:h2>&zotero.greenfrog.menu.setting;</html:h2>
+    </label>
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-bold-star" label="&zotero.greenfrog.bold.star;"
+        preference="extensions.zotero.greenfrog.bold.star" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-remove-bold" label="&zotero.greenfrog.remove.bold;"
+        preference="extensions.zotero.greenfrog.remove.bold" />
+    </hbox>
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-remove-star" label="&zotero.greenfrog.remove.star;"
+        preference="extensions.zotero.greenfrog.remove.star" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-remove-bold-star"
+        label="&zotero.greenfrog.remove.bold.star;" preference="extensions.zotero.greenfrog.remove.bold.star" />
+    </hbox>
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-chang-author-case"
+        label="&zotero.greenfrog.chang.author.case;" preference="extensions.zotero.greenfrog.chang.author.case" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-swap-author" label="&zotero.greenfrog.swap.author;"
+        preference="extensions.zotero.greenfrog.swap.author" />
+    </hbox>
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-chang-title" label="&zotero.greenfrog.chang.title;"
+        preference="extensions.zotero.greenfrog.chang.title" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-chang-pub-title"
+        label="&zotero.greenfrog.chang.pub.title;" preference="extensions.zotero.greenfrog.chang.pub.title" />
+    </hbox>
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-chang-pub-title-case"
+        label="&zotero.greenfrog.chang.pub.title.case;"
+        preference="extensions.zotero.greenfrog.chang.pub.title.case" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-item-title-find-replace"
+        label="&zotero.greenfrog.item.title.find.replace;"
+        preference="extensions.zotero.greenfrog.item.title.find.replace" />
+    </hbox>
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-show-profile-dir"
+        label="&zotero.greenfrog.show.profile.dir;" preference="extensions.zotero.greenfrog.show.profile.dir" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-show-data-dir" label="&zotero.greenfrog.show.data.dir;"
+        preference="extensions.zotero.greenfrog.show.data.dir" />
+    </hbox>
+    <hbox>
+      <checkbox width='250' id="zotero-prefpane-greenfrog-menu-sep1" label="&zotero.greenfrog.menu.sep.1;"
+        preference="extensions.zotero.greenfrog.sep1" />
+      <checkbox width='250' id="zotero-prefpane-greenfrog-menu-sep2" label="&zotero.greenfrog.menu.sep.2;"
+        preference="extensions.zotero.greenfrog.sep2" />
+    </hbox>
+
+    <!-- 快捷键设置 -->
+    <!--preferenceScript.ts function bindPrefEvents() 绑定变化-->
+    <label>
+      <html:h2>&zotero.greenfrog.shortcut.setting;</html:h2>
+    </label>
+    <!-- 题目改为句首字母大写 -->
+    <hbox>
+      <checkbox width='400' id="zotero-prefpane-greenfrog-shortcut-title-sentence"
+        label="&zotero.greenfrog.shortcut.title.sentence;"
+        preference="extensions.zotero.greenfrog.shortcut.title.sentence" />
+      <label value="Ctrl + "></label>
+      <html:input type="text" id="zotero-prefpane-greenfrog-shortcut-input-title-sentence" value="T" width='5'
+        preference="extensions.zotero.greenfrog.shortcut.input.title.sentence">
+      </html:input>
+    </hbox>
+    <!-- 期刊名称改为词首字母大写 -->
+    <hbox>
+      <checkbox width='400' id="zotero-prefpane-greenfrog-shortcut-publication-title-case"
+        label="&zotero.greenfrog.shortcut.publication.title.case;"
+        preference="extensions.zotero.greenfrog.shortcut.publication.title.case" />
+      <label value="Ctrl + "></label>
+      <html:input type="text" id="zotero-prefpane-greenfrog-shortcut-input-publication-title-case" value="U"
+        width='5' preference="extensions.zotero.greenfrog.shortcut.input.publication.title.case">
+      </html:input>
+    </hbox>
+    <!-- 显示数据目录 -->
+    <hbox>
+      <checkbox width='400' id="zotero-prefpane-greenfrog-shortcut-data-dir"
+        label="&zotero.greenfrog.shortcut.data.dir;" preference="extensions.zotero.greenfrog.shortcut.data.dir" />
+      <label value="Alt  + "></label>
+      <html:input type="text" id="zotero-prefpane-greenfrog-shortcut-input-data-dir" value="D" width='5'
+        preference="extensions.zotero.greenfrog.shortcut.input.data.dir">
+      </html:input>
+    </hbox>
+    <!-- 显示配置目录 -->
+    <hbox>
+      <checkbox width='400' id="zotero-prefpane-greenfrog-shortcut-profile-dir"
+        label="&zotero.greenfrog.shortcut.profile.dir;"
+        preference="extensions.zotero.greenfrog.shortcut.profile.dir" />
+      <label value="Alt  + "></label>
+      <html:input type="text" id="zotero-prefpane-greenfrog-shortcut-input-profile-dir" value="P" width='5'
+        preference="extensions.zotero.greenfrog.shortcut.input.profile.dir">
+      </html:input>
+    </hbox>
+
+    <!-- <hbox>
+      <html:label for="zotero-prefpane-greenfrog-input">&zotero.greenfrog.pref.input.label;</html:label>
+      <html:input type="text" id="zotero-prefpane-greenfrog-input" preference="extensions.zotero.greenfrog.input">
+      </html:input>
+    </hbox>
+    <hbox class="virtualized-table-container" flex="1" height="300px">
+      <html:div id="greenfrog-table-container" />
+    </hbox> -->
+  </groupbox>
+</vbox>
+<vbox>
+  <label value="&zotero.greenfrog.help.version.label;  &zotero.greenfrog.help.releasetime.label;"></label>
+</vbox>
+<!-- <script type="text/javascript">
+  function disable() {
+    document.getElementById("zotero-prefpane-greenfrog-add-update").disabled = "true";
+
+    //或者document.getElementById("checkbox").disabled=false;
+  }
+</script> -->
