@@ -8,7 +8,7 @@
 All updates have been tested in Zotero 6 (v6.0.30), on Windows 10 Professional Education version 2009
 
 ### 2024.01.04, v0.13.1
-- Only update `volume, issue, date, pages, ISSN, url, DOI, type, publisher` fields, do not update `title, publicationTitle, journalAbbreviation` fields, as updating them may lead to getting undesired content
+- Only update `volume, issue, date, pages, ISSN, url, DOI, type, publisher` fields, do not update `title, publicationTitle, journalAbbreviation` fields, as updating them may lead to undesirable contents
 
 
 ## Original README
